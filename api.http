@@ -1,0 +1,40 @@
+###
+GET http://localhost:8000/api/user
+Accept: application/json
+
+###
+DELETE http://localhost:8000/api/user/delete/5
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8000/api/user/create
+Content-Type: application/json
+
+{
+  "firstName": "Fatih",
+  "lastName": "Karatay",
+  "email": "merhaba@mail.com",
+  "password": "12345"
+}
+
+###
+POST http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+  "email": "merhaba@mail.com",
+  "password": "12345"
+}
+
+###
+PUT http://localhost:8000/api/user/update/5
+Content-Type: application/json
+
+{
+  "firstName": "Ali",
+  "lastName": "Karabay"
+}
+
+###
