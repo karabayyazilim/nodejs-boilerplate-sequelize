@@ -1,5 +1,5 @@
 {
-  "name": "business-basket-app",
+  "name": "nodejs-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -7,7 +7,7 @@
     "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ali KARABAY",
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.1.1",
