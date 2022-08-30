@@ -1,7 +1,7 @@
 {
   "name": "nodejs-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter repository for Node.js, Postgres",
   "main": "src/app.js",
   "scripts": {
     "start": "nodemon src/app.js",
