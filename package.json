@@ -7,7 +7,10 @@
     "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ali KARABAY",
+  "author": {
+    "name": "Ali KARABAY",
+    "email": "alikarabay77@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.1.1",
